@@ -91,12 +91,18 @@ author:
   email: jens.hemelaer@uantwerpen.be
   twitter: jhemelae
   links:
-    - title: website
+    - title: University webpage
       url: https://www.uantwerpen.be/en/staff/jens-hemelaer/
-      icon:
+      icon: fas fa-university
+    - title: Twitter
+      url: https://twitter.com/jhemelae
+      icon: fab fa-twitter-square
 
 # Footer Links
 footer_links:
+  - title: Twitter
+    url: https://twitter.com/jhemelae
+    icon: fab fa-twitter-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
