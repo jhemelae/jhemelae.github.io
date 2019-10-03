@@ -18,7 +18,7 @@ locale: en-US
 title: "Blog"
 description: "Blog"
 baseurl: "/"
-url: "https://jhemelae.github.io"
+url: # "https://jhemelae.github.io"
 logo: "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
