@@ -1,2 +1,3 @@
 name: Jens Hemelaer
 markdown: kramdown
+remote_theme: "mmistakes/so-simple-theme"
