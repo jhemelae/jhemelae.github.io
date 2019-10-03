@@ -16,7 +16,7 @@
 remote_theme: mmistakes/so-simple-theme
 locale: en-US
 title: "Blog"
-description: "Blog"
+description: # "Blog"
 baseurl: "/"
 url: # "https://jhemelae.github.io"
 logo: "/images/logo.png"
