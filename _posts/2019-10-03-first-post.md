@@ -1,7 +1,11 @@
 ---
 layout: post
 title: "First post"
-date: 2019-10-03
+date: 2019-10-04
 ---
 
-First post.
+Is it possible to do for loops?
+
+{% for i in (2..199) %}
+  {{ i }}
+{% endfor %}
