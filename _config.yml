@@ -15,11 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "Title"
+title: "Jens Hemelaer"
 description: # "Blog"
 baseurl: # "/"
 url: # "https://jhemelae.github.io"
-logo: "/images/logo.png"
+logo: "/images/picture.png"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
@@ -86,7 +86,7 @@ defaults:
 # Site Author
 author:
   name: Jens Hemelaer
-  picture:
+  picture: "/images/picture.png"
   email: jens.hemelaer@uantwerpen.be
   twitter: jhemelae
   links:
@@ -99,6 +99,9 @@ author:
 
 # Footer Links
 footer_links:
+  - title: University webpage
+    url: https://www.uantwerpen.be/en/staff/jens-hemelaer/
+    icon: fas fa-university
   - title: Twitter
     url: https://twitter.com/jhemelae
     icon: fab fa-twitter-square
