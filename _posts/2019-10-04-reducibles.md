@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Patterns made by the reducible quadratic polynomials modulo $$n$$"
+title: "Patterns made by the reducible quadratic polynomials modulo n"
 date: 2019-10-04
 ---
 
@@ -10,12 +10,14 @@ In other words, we draw a blue dot on $$(b,c)$$ if we can find natural numbers $
 
 This is the result for $$n=5$$:
 
-![reducibles-5-25](images/reducibles-5-25.png)
+![reducibles-5-25](/images/reducibles-5-25.png)
 
-And this is the result for $$n=7$$:
+And for $$n=7$$ we get:
 
-![reducibles-7-25](images/reducibles-7-25.png)
+![reducibles-7-25](/images/reducibles-7-25.png)
 
 In both cases, the pattern is repeated 25 times, and python automatically draws each block in a different color.
 
-{% for i in (2..199) %} ![reducibles-{{i}}](images/reducibles-{{i}}.png) {% endfor %}
+Here are the patterns for all numbers $$n$$ starting at $$n=2$$ and ending with $$n=199$$ (with one "block" per pattern). It seems that the prime numbers have the most chaotic patterns...
+
+{% for i in (2..199) %} ![reducibles-{{i}}](/images/reducibles-{{i}}.png) {% endfor %}
