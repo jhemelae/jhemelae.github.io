@@ -21,5 +21,5 @@ In both cases, the pattern is repeated 25 times, and python automatically draws 
 Here are the patterns for all numbers $$n$$ starting at $$n=2$$ and ending with $$n=199$$ (with one "block" per pattern). It seems that the prime numbers have the most chaotic patterns...
 
 <div style="display: flex;align-items: center;justify-content: center;flex-wrap: wrap;margin-left: auto;margin-right: auto;width: 100%;" markdown="1">
-{% for i in (2..199) %} ![reducibles-{{i}}](/images/reducibles-{{i}}.png){: width="200px"} {% endfor %}
+{% for i in (2..199) %} ![reducibles-{{i}}](/images/reducibles-{{i}}.png) {% endfor %}
 </div>
