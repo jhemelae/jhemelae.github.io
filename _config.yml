@@ -86,7 +86,7 @@ defaults:
 # Site Author
 author:
   name: Jens Hemelaer
-  picture: "/images/137.png"
+  picture: "/images/picture.png"
   email: jens.hemelaer@uantwerpen.be
   twitter: jhemelae
   links:
