@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Algebraic extensions"
+title: "Algebraic extensions and supernatural numbers"
 date: 2020-08-06
 ---
 
