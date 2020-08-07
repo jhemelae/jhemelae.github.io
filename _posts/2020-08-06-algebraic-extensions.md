@@ -47,7 +47,7 @@ We also don't have to restrict ourselves to field extensions. If $$\mathrm{M}_n(
 
 All this is a good excuse for me to bring up the visualizations that I made of the supernatural numbers, see the [previous post](https://jhemelae.github.io/2019/10/29/big-cell.html). Here is one of them:
 
-![Big cell](../images/bigcell-32.gif)
+![Big cell](/images/bigcell-32.gif)
 
 The red dots represent finite extensions, and they converge in $$\mathbb{R}^2$$ to supernatural numbers that represent algebraic extensions.
 
