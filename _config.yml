@@ -23,6 +23,8 @@ logo: "/images/137.png"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
+mathjax:
+  enable: true
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
@@ -40,7 +42,6 @@ liquid:
 
 # Build settings
 markdown: kramdown
-mathjax: true
 # feed:
 #  path: atom.xml
 
