@@ -41,6 +41,8 @@ liquid:
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: katex
 feed:
   path: atom.xml
 
