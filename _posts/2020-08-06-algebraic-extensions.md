@@ -4,7 +4,7 @@ title: "Algebraic extensions and supernatural numbers"
 date: 2020-08-06
 ---
 
-The field $$\mathbb{F}_p$$ with $$p$$ elements has a finite extension of degree $$n$$ for each natural number $$n$$. [On Twitter, @syzygay1 asked](https://twitter.com/syzygay1/status/1290861985639411712) if this can be extended to infinite field extensions of $$\mathbb{F}_p$$ for a generalized notion of "degree". For the field $$\mathbb{F}_p$$, this leads to the concept of supernatural numbers, which are [connected](https://arxiv.org/abs/1602.01627) to the [Arithmetic Site](https://arxiv.org/abs/1405.4527) of Connes and Consani. It is interesting to see what happens for other fields as well, and this is what led me to write the notes below.
+The field $\mathbb{F}_p$ with $$p$$ elements has a finite extension of degree $$n$$ for each natural number $$n$$. [On Twitter, @syzygay1 asked](https://twitter.com/syzygay1/status/1290861985639411712) if this can be extended to infinite field extensions of $$\mathbb{F}_p$$ for a generalized notion of "degree". For the field $$\mathbb{F}_p$$, this leads to the concept of supernatural numbers, which are [connected](https://arxiv.org/abs/1602.01627) to the [Arithmetic Site](https://arxiv.org/abs/1405.4527) of Connes and Consani. It is interesting to see what happens for other fields as well, and this is what led me to write the notes below.
 
 After looking at the case of the field $$\mathbb{F}_p$$, we discuss the Pontryagin dual of the absolute Galois group, what this has to do with the field with one element, and how we could classify algebraic extensions for fields other than $$\mathbb{F}_p$$.
 
