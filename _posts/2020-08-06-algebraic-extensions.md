@@ -4,6 +4,12 @@ title: "Algebraic extensions and supernatural numbers"
 date: 2020-08-06
 ---
 
+
+
+Edit: Changing the configuration file seems to have broken the MathJax support. I hope to repair this soon. But for now, you can also read this post in pdf format [here](https://jhemelae.github.io/algebraic-extensions.pdf).
+
+
+
 The field $\mathbb{F}_p$ with $$p$$ elements has a finite extension of degree $$n$$ for each natural number $$n$$. [On Twitter, @syzygay1 asked](https://twitter.com/syzygay1/status/1290861985639411712) if this can be extended to infinite field extensions of $$\mathbb{F}_p$$ for a generalized notion of "degree". For the field $$\mathbb{F}_p$$, this leads to the concept of supernatural numbers, which are [connected](https://arxiv.org/abs/1602.01627) to the [Arithmetic Site](https://arxiv.org/abs/1405.4527) of Connes and Consani. It is interesting to see what happens for other fields as well, and this is what led me to write the notes below.
 
 After looking at the case of the field $$\mathbb{F}_p$$, we discuss the Pontryagin dual of the absolute Galois group, what this has to do with the field with one element, and how we could classify algebraic extensions for fields other than $$\mathbb{F}_p$$.
@@ -12,7 +18,7 @@ After looking at the case of the field $$\mathbb{F}_p$$, we discuss the Pontryag
 
 The problem was first studied by Ernst Steinitz in his 1910 paper ["Algebraische Theorie der Körper"](http://resolver.sub.uni-goettingen.de/purl?GDZPPN002167042) ("Algebraic Theory of Fields").  He showed that the algebraic extensions of $$\mathbb{F}_p$$ correspond to what are now called the *supernatural numbers* or *Steinitz numbers*. The idea behind it was rediscovered by @syzygay1 on Twitter. Each algebraic extension $$K/\mathbb{F}_p$$ is the union of its finite subfields, so we have to keep tracks of which finite subfields occur. If $$K$$ contains $$\mathbb{F}_{p^n}$$, the (unique) field extension of $$\mathbb{F}_p$$ that has degree $$n$$, then $$K$$ also has to contain all subfields of $$\mathbb{F}_{p^n}$$. These are precisely the fields $$\mathbb{F}_{p^m}$$ for $$m$$ a divisor of $$n$$. Further, if $$K$$ contains two fields $$\mathbb{F}_{p^k}$$ and $$\mathbb{F}_{p^r}$$ of degree $$k$$ and $$r$$, then it also contains the union of these two fields, which is $$\mathbb{F}_{p^l}$$ for $$l$$ the least common multiple of $$k$$ and $$r$$.
 
-![Ernst Steinitz](/images/steinitz.jpg)
+![Ernst Steinitz](../images/steinitz.jpg)
 
 There is an analogy with divisors here. If a natural number $$s$$ is divisible by $$n$$, then it is also divisible by each $$m$$ as long as $$m$$ divides $$n$$. And if $$s$$ is divisible by $$k$$ and $$r$$, then it is also divisible by the least common multiple of $$k$$ and $$r$$.
 
@@ -41,7 +47,7 @@ We also don't have to restrict ourselves to field extensions. If $$\mathrm{M}_n(
 
 All this is a good excuse for me to bring up the visualizations that I made of the supernatural numbers, see the [previous post](https://jhemelae.github.io/2019/10/29/big-cell.html). Here is one of them:
 
-![Big cell](/images/bigcell-32.gif)
+![Big cell](../images/bigcell-32.gif)
 
 The red dots represent finite extensions, and they converge in $$\mathbb{R}^2$$ to supernatural numbers that represent algebraic extensions.
 
