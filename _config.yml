@@ -42,8 +42,8 @@ liquid:
 
 # Build settings
 markdown: kramdown
-# feed:
-#  path: atom.xml
+feed:
+  path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
@@ -71,7 +71,7 @@ search_full_content: false # can have performance implications for large sites
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-#  - jekyll-feed
+  - jekyll-feed
   - jekyll-paginate
 
 # Front Matter Defaults
@@ -106,6 +106,6 @@ footer_links:
   - title: Twitter
     url: https://twitter.com/jhemelae
     icon: fab fa-twitter-square
-  #- title: Feed
-  #  url: atom.xml
-  #  icon: fas fa-rss-square
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
