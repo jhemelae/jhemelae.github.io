@@ -6,7 +6,7 @@ date: 2020-08-14
 
 I'm still trying to improve my understanding of algebraic extensions of $$\mathbb{C}(t)$$. It's a problem that's connected to a lot of interesting mathematical ideas, like Riemann surfaces, the étale fundamental group, dessins d'enfants and modular curves. 
 
-The connection to Riemann surfaces is as follows: algebraic extensions of $$\mathbb{C}(t)$$ correspond to maps $$\pi:\Sigma \to \mathbb{C}P^1$$ where $$\Sigma$$ is a Riemann surface, $$\mathbb{C}P^1$$ is the complex projective line, and $$\pi$$ is a local homeomorphism except in a few so-called ramifications points $$x_1,\dots,x_r \in \Sigma$$.
+The connection to Riemann surfaces is as follows: algebraic extensions of $$\mathbb{C}(t)$$ correspond to maps $$\pi:\Sigma \to \mathbb{P}_\mathbb{C}^1$$ where $$\Sigma$$ is a Riemann surface, $$\mathbb{P}^1_\mathbb{C}$$ is the complex projective line, and $$\pi$$ is a local homeomorphism except in a few so-called ramifications points $$x_1,\dots,x_r \in \Sigma$$.
 
 ## What is a Riemann surface?
 
@@ -53,7 +53,7 @@ If you have a Riemann surface $$\Sigma$$, you can look at the universal cover $$
 The reason why is explained well [here](https://math.stackexchange.com/a/1729742/81217), but I'll repeat the argument. You can write $$\Sigma$$ as the quotient $$\widetilde{\Sigma}/\Gamma$$ where the discrete group $$\Gamma$$ has a holomorphic group action on $$\widetilde{\Sigma}$$ that is free and properly discontinuous. In order for the metric on $$\widetilde{\Sigma}$$ to descend to a metric on $$\Sigma$$, we need that the $$\Gamma$$ by isometries. So the action of $$\Gamma$$ should not only preserve angles but also areas. Let us look at why this is the case in the three cases:
 
 - On $$\mathbb{P}^1_\mathbb{C}$$ the holomorphic self-maps are maps $$z \mapsto \frac{az+b}{cz+d}$$ with $$\begin{pmatrix} a & b \\ c & d \end{pmatrix} \in \mathrm{PGL}_2(\mathbb{C})$$. These all have a fixpoint, so there are no free holomorphic group actions on $$\mathbb{P}^1_\mathbb{C}$$. The only Riemann surface with $$\mathbb{P}^1_\mathbb{C}$$ as universal cover is $$\mathbb{P}^1_\mathbb{C}$$ itself.
-- On $$\mathbb{C}$$ the holomorphic self-maps are the same maps $$z \mapsto \frac{az+b}{cz+d}$$ but now they have to fix the point at infinity. By l'Hôpital's rule this means that $$\tfrac{a}{c}=\infty$$ or in other words $$a \neq 0$$ and $$c = 0$$. So the holomorphic self-maps are combinations of the form $$z \mapsto az + b$$ for $$a,b \in \mathbb{C}$$. If there are no fixpoints, then necessarily $$a  = 1$$, otherwise there is a solution to $$z = az+b$$. So the holomorphic self-maps without fixpoints are the translations, and these are all isometries.
+- On $$\mathbb{C}$$ the holomorphic self-maps are the same maps $$z \mapsto \frac{az+b}{cz+d}$$ but now they have to fix the point at infinity. By l'Hôpital's rule this means that $$\tfrac{a}{c}=\infty$$ or in other words $$a \neq 0$$ and $$c = 0$$. So the holomorphic self-maps are of the form $$z \mapsto az + b$$ for $$a,b \in \mathbb{C}$$. If there are no fixpoints, then necessarily $$a  = 1$$, otherwise there is a solution to $$z = az+b$$. So the holomorphic self-maps without fixpoints are the translations, and these are all isometries.
 - For the unit disk $$D(0,1)$$ every holomorphic self-map is an isometry, see Theorem 1.5 of Bowman's [lectures notes on hyperbolic geometry](http://pi.math.cornell.edu/~bowman/metrics.pdf). 
 
 So the special metrics on the universal cover $$\widetilde{\Sigma}$$ always descend to a metric on the original Riemann surface $$\Sigma$$, so that the covering map is a local isometry. This implies that the metric on $$\Sigma$$ is again complete and of constant curvature $$-1$$, $$0$$ or $$1$$. 
@@ -62,7 +62,7 @@ A complete metric of constant curvature on $$\Sigma$$ lifts to a complete metric
 
 ## Ricci flow
 
-In 2003, Grigori Perelman proved the Poincaré Conjecture. Essential to his work was the so-called Ricci flow: a Riemannian metric $$g_{ij}(t)$$ on a fixed manifold varying in function of a time parameter $$t$$ such that a certain differential equation is satisfied. When awarded the Clay Millenium Prize, Perelman claimed that his contribution was not greater than that of Richard Hamilton, who introduced the Ricci flow.
+In 2003, Grigori Perelman proved the Poincaré Conjecture. Essential to his work was the so-called Ricci flow: a Riemannian metric $$g_{ij}(t)$$ on a fixed manifold varying in function of a time parameter $$t$$ such that a certain differential equation is satisfied. When awarded the Clay Millenium Prize, Perelman claimed that his contribution was no greater than that of Richard Hamilton, who introduced the Ricci flow.
 
 For compact Riemann surfaces, the Ricci flow is extremely well-behaved. If you choose an initial Riemannian metric, compatible with the complex structure, then throughout the Ricci flow the Riemannian metric $$g_{ij}(t)$$ is still compatible with the complex structure, i.e. conformally equivalent to the initial one.
 
