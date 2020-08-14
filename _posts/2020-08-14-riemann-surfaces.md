@@ -38,7 +38,7 @@ The kind of metric that is preferred depends on the universal cover of the Riema
 - The complex plane $$\mathbb{C}$$ (the elliptic case).
 - The unit disk $$D(0,1) = \{ z \in \mathbb{C} : \lvert z \rvert < 1 \}$$ (the hyperbolic case).
 
-In order to make these three into Riemann surfaces, you need to specify the structure of complex manifold in each case. For $$\mathbb{C}P^1$$ this is the usual construction, for $$\mathbb{C}$$ this is trivial, and $$D(0,1)$$ inherits the one from $$\mathbb{C}$$ by being an open subset of it.
+In order to make these three into Riemann surfaces, you need to specify the structure of complex manifold in each case. For $$\mathbb{P}_\mathbb{C}^1$$ this is the usual construction, for $$\mathbb{C}$$ this is trivial, and $$D(0,1)$$ inherits the one from $$\mathbb{C}$$ by being an open subset of it.
 
 For each of these three Riemann surfaces, there is a "favorite" metric that is compatible with the complex structure.
 
