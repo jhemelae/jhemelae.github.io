@@ -35,11 +35,11 @@ Why is the above the right definition for a covering space of a topos? One reaso
 
 After defining covering spaces for toposes $$\mathcal{E}$$, it remains to find a group $$G$$ such that covering spaces of $$\mathcal{E}$$ correspond precisely to sets with a $$G$$-action. This can go wrong in various ways.
 
-The problem already appears for topological spaces. Take for example the [Hawaiian earring](https://en.wikipedia.org/wiki/Hawaiian_earring):
+The problem already appears for topological spaces. Take for example the [shrinking wedge of circles](https://en.wikipedia.org/wiki/Hawaiian_earring):
 
-![Hawaiian earring](/images/hawaiian-earring.png)
+![Shrinking wedge of circles](/images/swoc.png)
 
-Suppose that you have a family of covering space $$Y_i \to X$$ with as base space $$X$$ the Hawaiian earring. Then the disjoint union $$\bigsqcup_{i \in I} Y_i \to X$$ is not necessarily a covering space anymore. The reason is that, while for each covering space you can find an open cover $$X = \bigcup_{j \in J} U_j$$ that trivializes $$Y_i$$, it is not possible to find a common open covering that works for all covering spaces at once.
+Suppose that you have a family of covering space $$Y_i \to X$$ with as base space $$X$$ the shrinking wedge of circles. Then the disjoint union $$\bigsqcup_{i \in I} Y_i \to X$$ is not necessarily a covering space anymore. The reason is that, while for each covering space you can find an open cover $$X = \bigcup_{j \in J} U_j$$ that trivializes $$Y_i$$, it is not possible to find a common open covering that works for all covering spaces at once.
 
 This is in contrast to what happens what happens for sets with a $$G$$-action, for $$G$$ a group: for any family of sets $$S_i$$, each equipped with a $$G$$-action, the disjoint union $$\bigsqcup_{i \in I} S_i$$ is still a set with a $$G$$-action.
 
@@ -60,4 +60,4 @@ Every connected, locally connected topos has a fundamental group. Sometimes it i
 Here are some questions that I think are interesting:
 
 - If $$\mathcal{E}$$ is the topos of local homeomorphisms to a topological space $$X$$, then how does the fundamental group of $$\mathcal{E}$$ relate to the fundamental group of $$X$$ (defined in terms of paths in $$X$$)?
-- For a given profinite group $$G$$, let's say $$G = \mathrm{Gal}(\bar{\mathbb{Q}}/\mathbb{Q})$$, can we find a topological space $$X$$ such that the topos associated to $$X$$ has $$G$$ as fundamental group? Here $$X$$ should be a pathological topological space like the Hawaiian earring, as otherwise the fundamental group of the topos is discrete.
+- For a given profinite group $$G$$, let's say $$G = \mathrm{Gal}(\bar{\mathbb{Q}}/\mathbb{Q})$$, can we find a topological space $$X$$ such that the topos associated to $$X$$ has $$G$$ as fundamental group? Here $$X$$ should be a pathological topological space like the shrinking wedge of circles, as otherwise the fundamental group of the topos is discrete.

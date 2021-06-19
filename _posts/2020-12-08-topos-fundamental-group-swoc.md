@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Topos fundamental group of the Hawaiian earring"
+title: "Topos fundamental group of the shrinking wedge of circles"
 date: 2020-12-08
 ---
 
-In September, I wrote about the [fundamental group of a topos](https://jhemelae.github.io/2020/09/10/fundamental-group-topos.html), but I didn't yet give an example of how to compute this fundamental group for toposes of the form $$\mathbf{Sh}(X)$$ for $$X$$ a topological space. If $$X$$ is a CW-complex, then the fundamental group of $$\mathbf{Sh}(X)$$ agrees with the (discrete) group $$\pi_1(X)$$.  On the other hand, if $$X$$ is the Hawaiian earring, then the fundamental group of $$\mathbf{Sh}(X)$$ is not discrete, so this is an interesting example to look at.
+In September, I wrote about the [fundamental group of a topos](https://jhemelae.github.io/2020/09/10/fundamental-group-topos.html), but I didn't yet give an example of how to compute this fundamental group for toposes of the form $$\mathbf{Sh}(X)$$ for $$X$$ a topological space. If $$X$$ is a CW-complex, then the fundamental group of $$\mathbf{Sh}(X)$$ agrees with the (discrete) group $$\pi_1(X)$$.  On the other hand, if $$X$$ is the shrinking wedge of circles, then the fundamental group of $$\mathbf{Sh}(X)$$ is not discrete, so this is an interesting example to look at.
 
 But before starting the computation...
 
@@ -22,25 +22,25 @@ There's a small caveat here. For topos-theoretic purposes, the space $$X$$ shoul
 
 I am thankful to Jeremy Brazas ([@jtbrazas](https://twitter.com/jtbrazas)) for helping me understand his paper. If you want to know more about this, I can also recommend his paper ["Semicoverings: a generalization of covering space theory"](https://arxiv.org/abs/1108.3021) and his blog [Wild Topology](https://wildtopology.wordpress.com/).
 
-## Covering spaces of the Hawaiian earring
+## Covering spaces of the shrinking wedge of circles
 
-Now, let's have a look at how to compute the fundamental group of $$\mathbf{Sh}(X)$$, for $$X$$ the Hawaiian earring. We will do this by explicitly classifying the covering spaces of $$X$$. Then we will construct a topological group $$G$$ such that the connected covering spaces of $$X$$ correspond to the transitive group actions of $$G$$. It follows that $$G$$ is the fundamental group of $$\mathbf{Sh}(X)$$.
+Now, let's have a look at how to compute the fundamental group of $$\mathbf{Sh}(X)$$, for $$X$$ the shrinking wedge of circles. We will do this by explicitly classifying the covering spaces of $$X$$. Then we will construct a topological group $$G$$ such that the connected covering spaces of $$X$$ correspond to the transitive group actions of $$G$$. It follows that $$G$$ is the fundamental group of $$\mathbf{Sh}(X)$$.
 
-The fundamental group of $$\mathbf{Sh}(X)$$ is not determined up to isomorphism, but only up to Morita equivalence. As described above, you could equivalently find a fundamental group of $$\mathbf{Sh}(X)$$ by equipping $$\pi_1(X)$$ with a suitable topology. But if $$X$$ is the Hawaiian earring, then $$\pi_1(X)$$ is uncountable. On the other hand, the fundamental group of $$\mathbf{Sh}(X)$$ that we will construct below is countable. Conclusion: if two topological groups are Morita equivalent, this doesn't mean that they have the same cardinality.
+The fundamental group of $$\mathbf{Sh}(X)$$ is not determined up to isomorphism, but only up to Morita equivalence. As described above, you could equivalently find a fundamental group of $$\mathbf{Sh}(X)$$ by equipping $$\pi_1(X)$$ with a suitable topology. But if $$X$$ is the shrinking wedge of circles, then $$\pi_1(X)$$ is uncountable. On the other hand, the fundamental group of $$\mathbf{Sh}(X)$$ that we will construct below is countable. Conclusion: if two topological groups are Morita equivalent, this doesn't mean that they have the same cardinality.
 
-Here is the Hawaiian earring:
+Here is the shrinking wedge of circles:
 
-![Hawaiian earring](/images/hawaiian-earring.png)
+![shrinking wedge of circles](/images/swoc.png)
 
 It is the union of infinitely many circles: for each nonzero natural number $$n$$, it contains a circle of radius $$\tfrac{1}{n}$$ that goes through the origin. The topology is the subspace topology from $$\mathbb{R}^2$$.
 
-Suppose that $$\pi : Y \to X$$ is a covering space, with $$X$$ the Hawaiian earring. Then there is some open covering $$\{U_i\}_{i \in I}$$ of $$X$$, such that for each $$i \in I$$ the map $$\pi^{-1}(U_i) \to U_i$$ is a trivial covering space. Here "trivial covering space" means that $$\pi^{-1}(U_i) = \bigsqcup_{j \in S} U_i$$ for some index set $$S$$, and that the projection $$\pi^{-1}(U_i)$$ is the identity on each component. 
+Suppose that $$\pi : Y \to X$$ is a covering space, with $$X$$ the shrinking wedge of circles. Then there is some open covering $$\{U_i\}_{i \in I}$$ of $$X$$, such that for each $$i \in I$$ the map $$\pi^{-1}(U_i) \to U_i$$ is a trivial covering space. Here "trivial covering space" means that $$\pi^{-1}(U_i) = \bigsqcup_{j \in S} U_i$$ for some index set $$S$$, and that the projection $$\pi^{-1}(U_i)$$ is the identity on each component. 
 
 ![Trivial covering space](/images/trivial-covering.png)
 
-One of these open sets $$U_i$$ above must contain the origin. But then it contains everyting within some distance $$\varepsilon$$ from the origin, so it contains all circles of the Hawaiian earring, except maybe finitely many of them.
+One of these open sets $$U_i$$ above must contain the origin. But then it contains everyting within some distance $$\varepsilon$$ from the origin, so it contains all circles of the shrinking wedge of circles, except maybe finitely many of them.
 
-This part $$U_i$$ of the Hawaiian earring, close to the origin and containing almost all circles, is the most difficult part... and we now know that nothing interesting happens with this part, in the sense that $$\pi^{-1}(U_i) \to U_i$$ is a trivial covering space. So we can ignore this part, and pretend that the Hawaiian earring is just a union of finitely many circles.
+This part $$U_i$$ of the shrinking wedge of circles, close to the origin and containing almost all circles, is the most difficult part... and we now know that nothing interesting happens with this part, in the sense that $$\pi^{-1}(U_i) \to U_i$$ is a trivial covering space. So we can ignore this part, and pretend that the shrinking wedge of circles is just a union of finitely many circles.
 
 ![Rose with 4 petals](/images/wedge-of-circles.png)
 
@@ -52,15 +52,15 @@ In our case, $$\pi_1(R)$$ is the free group on $$n$$ variables. So a covering sp
 
 If one of the automorphisms $$\alpha_i$$ is the identity, then this means that nothing happens with the corresponding loop $$\gamma_i$$. In other words, the restriction to $$\gamma_i$$ of the covering map $$\pi : Q \to R$$, given by $$\pi^{-1}(\gamma_i) \to \gamma_i$$, is a trivial covering map.
 
-If this is the case, then we can ignore $$\gamma_i$$, just like how we ignored most petals/circles for the Hawaiian earring.
+If this is the case, then we can ignore $$\gamma_i$$, just like how we ignored most petals/circles for the shrinking wedge of circles.
 
 We can go in the other direction as well. Each covering space for the rose with $$n$$ petals gives a covering space for the rose with $$n+1$$ petals. It's just that nothing happens with the $$(n+1)$$-th petal. In terms of the set $$F$$ with action of the fundamental group, we have that the permutation $$\alpha_{n+1} : F \to F$$ is trivial.
 
-Going back to the Hawaiian earring $$X$$, this means that a covering space $$\pi : Y \to X$$ is given by a set $$F$$ together with infinitely many automorphisms/permutations $$\alpha_1, \alpha_2, \alpha_3, \dots$$ of $$F$$, one for each circle, with the special property that only finitely many of these automorphisms are nontrivial.
+Going back to the shrinking wedge of circles $$X$$, this means that a covering space $$\pi : Y \to X$$ is given by a set $$F$$ together with infinitely many automorphisms/permutations $$\alpha_1, \alpha_2, \alpha_3, \dots$$ of $$F$$, one for each circle, with the special property that only finitely many of these automorphisms are nontrivial.
 
-## Topos fundamental group of the Hawaiian earring
+## Topos fundamental group of the shrinking wedge of circles
 
-We now know that a covering space of the Hawaiian earring corresponds to a set $$F$$ with infinitely permutations $$\alpha_1,\alpha_2,\alpha_3,\dots$$ such that only finitely many of them are nontrivial.
+We now know that a covering space of the shrinking wedge of circles corresponds to a set $$F$$ with infinitely permutations $$\alpha_1,\alpha_2,\alpha_3,\dots$$ such that only finitely many of them are nontrivial.
 
 The fundamental group $$G$$ of the associated topos will have as underlying group the free group on infinitely many generators $$\gamma_1, \gamma_2, \gamma_3, \dots$$ Further, we need to equip $$G$$ with a topology with the special property that a transitive action of $$G$$ on a set $$F$$ is continuous if and only if only finitely many $$\gamma_i$$'s act nontrivially.
 
@@ -68,4 +68,4 @@ Let's try to construct such a topology. We define a subset $$U \subseteq G$$ to 
 
 With this topology, a subgroup is open if and only if it contains all elements $$\gamma_n$$, except maybe finitely many of them. So the transitive group actions are precisely the ones such that almost all elements $$\gamma_n$$ act trivially.
 
-So the topological group $$G$$ that we constructed is the fundamental group of  $$\mathbf{Sh}(X)$$ , the topos of sheaves on the Hawaiian earring. In particular, there is a (connected) geometric morphism $$\mathbf{Sh}(X) \longrightarrow \mathbf{Cont}(G)$$ to the topos of continuous $$G$$-sets. The inverse image functor sends a set with transitive, continuous $$G$$-action to its corresponding covering space of the Hawaiian earring.
+So the topological group $$G$$ that we constructed is the fundamental group of  $$\mathbf{Sh}(X)$$ , the topos of sheaves on the shrinking wedge of circles. In particular, there is a (connected) geometric morphism $$\mathbf{Sh}(X) \longrightarrow \mathbf{Cont}(G)$$ to the topos of continuous $$G$$-sets. The inverse image functor sends a set with transitive, continuous $$G$$-action to its corresponding covering space of the shrinking wedge of circles.
