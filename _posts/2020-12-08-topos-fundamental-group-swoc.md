@@ -6,7 +6,9 @@ date: 2020-12-08
 
 In September, I wrote about the [fundamental group of a topos](https://jhemelae.github.io/2020/09/10/fundamental-group-topos.html), but I didn't yet give an example of how to compute this fundamental group for toposes of the form $$\mathbf{Sh}(X)$$ for $$X$$ a topological space. If $$X$$ is a CW-complex, then the fundamental group of $$\mathbf{Sh}(X)$$ agrees with the (discrete) group $$\pi_1(X)$$.  On the other hand, if $$X$$ is the shrinking wedge of circles, then the fundamental group of $$\mathbf{Sh}(X)$$ is not discrete, so this is an interesting example to look at.
 
-But before starting the computation...
+Note: I have changed the terminology in this blogpost from “Hawaiian earring” to “shrinking wedge of circles”, following Hawaiian mathematicians and others who spoke out against the harmful terminology.
+
+Before starting the computation...
 
 ## Can the fundamental group of $$\mathbf{Sh}(X)$$ be $$\mathrm{Gal}(\bar{\mathbb{Q}}/\mathbb{Q})$$? 
 
