@@ -12,7 +12,7 @@ Contact details are on my [university webpage](https://www.uantwerpen.be/en/staf
 
 # Talks
 
-- "Toposes of presheaves on monoids as generalized topological spaces", [Toposes online](https://aroundtoposes.com/toposesonline/) (June 2021) ([slides](/toposes-online-slides.pdf)).
+- "Toposes of presheaves on monoids as generalized topological spaces", [Toposes online](https://aroundtoposes.com/toposesonline/) (June 2021) ([slides](/toposes-online-slides.pdf), [video](https://www.youtube.com/watch?v=1GI7HLX_ed0)).
 - "Duality for noncommutative frames", [8ECM](https://www.8ecm.si/) (June 2021) ([slides](/8ecm-slides.pdf)).
 - "Toposes in arithmetic noncommutative geometry", [Global Noncommutative Geometry Seminar](https://globalncgseminar.org/) (February 2021) ([video](https://globalncgseminar.org/talks/toposes-in-arithmetic-noncommutative-geometry/)).
 - "How do retracts depend on the endomorphism monoid?", [York Semigroup](https://www-users.york.ac.uk/~varg1/yorksemigroup.htm), University of York (January 2021).
