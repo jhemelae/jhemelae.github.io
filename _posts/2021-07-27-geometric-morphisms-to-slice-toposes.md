@@ -16,6 +16,8 @@ A detailed proof of the SGA4 result is given in the accompanying pdf [here](/sli
 
 While writing this blog post, I was influenced and encouraged by interesting discussions about this with Morgan Rogers and Steve Vickers. I also would like to mention the [recent paper](https://arxiv.org/abs/2107.04417v1) by Caramello and Zanfa, which features a short proof of the correspondence between sheaves and local homeomorphisms over a Grothendieck topos (see Lemma 6.1.2), and puts it in a much wider context.
 
+EDIT (November 2021): The result from SGA4 that I discuss here also appears as Lemma 4.59 in the paper ["Denseness conditions, morphisms and equivalences of toposes"](https://arxiv.org/abs/1906.08737) (2020) by Olivia Caramello. So the result from SGA4 has some applications in recent topos theory literature. It is very likely that I first read the result in Caramello's paper, but then forgot about it until I found it in SGA4.
+
 ## Statement in SGA4
 
 The statement in SGA4 says that the geometric morphisms $$g : \mathcal{F} \to \mathcal{E}/X$$​​ correspond to the pairs $$(f,a)$$​​ where $$f : \mathcal{F} \to \mathcal{E}$$​​ is a geometric morphism and $$a : 1 \to f^*(X)$$​​ is a global element of $$f^*(X)$$​​​. 
