@@ -10,12 +10,10 @@ My PhD thesis "Topos-theoretic methods in noncommutative geometry" (pdf [here](t
 Blog: [jhemelae.github.io](https://jhemelae.github.io/).  
 Contact details are on my [university webpage](https://www.uantwerpen.be/en/staff/jens-hemelaer/).
 
-# Upcoming talks
+# Talks
 
-- "Are precohesive geometric morphisms locally connected?", [Open House on Category Theory 2021](https://sites.google.com/view/catcat-2021-en/home) (November 18, 2021).
-- "Toposes of presheaves on a monoid and their points", [NYC Category Theory Seminar](http://www.sci.brooklyn.cuny.edu/~noson/Seminar/index.html) (December 8, 2021).
-
-# Previous talks
+- "Toposes of presheaves on a monoid and their points", [NYC Category Theory Seminar](http://www.sci.brooklyn.cuny.edu/~noson/Seminar/index.html) (December 2021) ([slides](/nyccat2021-slides.pdf), [video](https://www.youtube.com/watch?v=5SCxP6kkR-w)).
+- "Are precohesive geometric morphisms locally connected?", [Open House on Category Theory 2021](https://sites.google.com/view/catcat-2021-en/home) (November 2021) ([slides](/open-house-slides.pdf)).
 
 - "Toposes of presheaves on monoids as generalized topological spaces", [Toposes online](https://aroundtoposes.com/toposesonline/) (June 2021) ([slides](/toposes-online-slides.pdf), [video](https://www.youtube.com/watch?v=1GI7HLX_ed0)).
 - "Duality for noncommutative frames", [8ECM](https://www.8ecm.si/) (June 2021) ([slides](/8ecm-slides.pdf)).
