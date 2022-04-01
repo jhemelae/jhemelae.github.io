@@ -26,6 +26,9 @@ Contact details are on my [university webpage](https://www.uantwerpen.be/en/staf
 # Papers/preprints
 
 - Jens Hemelaer and Morgan Rogers,  
+  *Geometric morphisms between toposes of monoid actions: factorization systems*,  
+  [arXiv:2203.09133](https://arxiv.org/abs/2203.09133).
+- Jens Hemelaer and Morgan Rogers,  
   *Solution to a problem of FitzGerald*,  
   [Semigroup Forum](https://link.springer.com/article/10.1007/s00233-021-10170-5) (2021), [arXiv:2011.12129](https://arxiv.org/abs/2011.12129v1).
 - Jens Hemelaer and Morgan Rogers,   
