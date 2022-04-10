@@ -25,6 +25,9 @@ Contact details are on my [university webpage](https://www.uantwerpen.be/en/staf
 
 # Papers/preprints
 
+- Jens Hemelaer,  
+  *Toposes over which essential implies locally connected*,  
+  [arXiv:2204.02749](https://arxiv.org/abs/2204.02749).
 - Jens Hemelaer and Morgan Rogers,  
   *Geometric morphisms between toposes of monoid actions: factorization systems*,  
   [arXiv:2203.09133](https://arxiv.org/abs/2203.09133).
