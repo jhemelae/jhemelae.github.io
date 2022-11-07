@@ -26,7 +26,7 @@ Contact details are on my [university webpage](https://www.uantwerpen.be/en/staf
 # Papers/preprints
 
 - Jens Hemelaer,  
-  *Toposes over which essential implies locally connected*,  
+  *Some toposes over which essential implies locally connected*,  
   [Cahiers de Topologie et Géométrie Différentielle Catégoriques](http://cahierstgdc.com/index.php/volume-lxiii-2022/#4) (2022), [arXiv:2204.02749](https://arxiv.org/abs/2204.02749).
 - Jens Hemelaer and Morgan Rogers,  
   *Geometric morphisms between toposes of monoid actions: factorization systems*,  
