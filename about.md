@@ -25,8 +25,8 @@ Contact details are on my [university webpage](https://www.uantwerpen.be/en/staf
 
 # Papers/preprints
 
-- Jens Hemelaer,
-  *Localization of monoids and topos theory*,
+- Jens Hemelaer,   
+  *Localization of monoids and topos theory*,   
   [arXiv:2303.06781](https://arxiv.org/abs/2303.06781).
 - Jens Hemelaer,  
   *Some toposes over which essential implies locally connected*,  
