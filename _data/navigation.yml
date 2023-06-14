@@ -1,7 +1,15 @@
 # Sample site navigation bar links
 
-# - title: Home
-#   url: /
+ - title: Blog
+   url: /
+ - title: Papers
+   url: /papers
+ - title: Talks
+   url: /talks
+ - title: LinkedIn
+   url: https://www.linkedin.com/in/jhemelae
+ - title: About
+   url: /about
 # - title: Posts
 #   url: /posts/
 # - title: Categories
