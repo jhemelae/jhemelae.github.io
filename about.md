@@ -7,7 +7,4 @@ I am currently a postdoc at University of Antwerp (FWO) in the research group [F
 
 My PhD thesis "Topos-theoretic methods in noncommutative geometry" (2019, pdf [here](thesis-jens-hemelaer.pdf)) was written under supervision of [Lieven Le Bruyn](http://matrix.uantwerpen.be/lieven.lebruyn/).
 
-Blog: [jhemelae.github.io](https://jhemelae.github.io/).  
-LinkedIn: [linkedin.com/in/jhemelae](https://www.linkedin.com/in/jhemelae).
-
-Contact details are on my [university webpage](https://www.uantwerpen.be/en/staff/jens-hemelaer/).
+I am looking for job opportunities in software engineering. You can find me on [LinkedIn](https://www.linkedin.com/in/jhemelae) here.
