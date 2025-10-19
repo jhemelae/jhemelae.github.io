@@ -2,7 +2,9 @@
 layout: page
 title: Papers/preprints
 ---
-
+- Jens Hemelaer,  
+  *The smallest n-pure subtopos and dimension theory*,  
+  [arXiv:2510.10349](https://arxiv.org/abs/2510.10349).
 - Jens Hemelaer,   
   *Localization of monoids and topos theory*,   
   [arXiv:2303.06781](https://arxiv.org/abs/2303.06781).
@@ -11,6 +13,7 @@ title: Papers/preprints
   [Cahiers de Topologie et Géométrie Différentielle Catégoriques](http://cahierstgdc.com/index.php/volume-lxiii-2022/#4) (2022), [arXiv:2204.02749](https://arxiv.org/abs/2204.02749).
 - Jens Hemelaer and Morgan Rogers,  
   *Geometric morphisms between toposes of monoid actions: factorization systems*,  
+  [Theory and Applications of Categories](http://www.tac.mta.ca/tac/volumes/40/4/40-04abs.html) (Bunge Festschrift) (2024),
   [arXiv:2203.09133](https://arxiv.org/abs/2203.09133).
 - Jens Hemelaer and Morgan Rogers,  
   *Solution to a problem of FitzGerald*,  
